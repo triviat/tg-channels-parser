@@ -1,0 +1,5 @@
+.env
+user.session
+user.session-journal
+.venv/
+out.csv

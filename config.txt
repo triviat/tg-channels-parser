@@ -1,0 +1,5 @@
+# Example config
+channels=@typespace,@typespace_ai,@naebnet
+limit=50
+output=out.csv
+login_mode=qr
