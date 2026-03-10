@@ -15,7 +15,9 @@ Simple Telegram userbot to export the latest N posts from specified channels int
 pip install -r requirements.txt
 ```
 
-2. Set environment variables:
+2. Get your Telegram API credentials at [my.telegram.org](https://my.telegram.org/auth?to=apps).
+
+3. Set environment variables:
 
 ```bash
 export TG_API_ID=123456
@@ -24,7 +26,7 @@ export TG_API_HASH=your_api_hash
 
 Or create a `.env` file (see `.env.example`) and keep variables there.
 
-3. Edit `config.txt`:
+4. Edit `config.txt`:
 
 ```
 channels=@example_channel1,@example_channel2
